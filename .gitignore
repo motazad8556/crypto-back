@@ -1,0 +1,12 @@
+*.sqlite
+*.TODO
+*.log
+*.env
+ormconfig.prod.json
+.idea/
+.vscode/
+node_modules/
+tmp/
+temp/
+*.sqlite-journal
+*.sql

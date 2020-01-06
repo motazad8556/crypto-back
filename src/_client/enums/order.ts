@@ -1,0 +1,27 @@
+export enum ORDER_TYPE  {
+	LIMIT = 1,
+	MARKET_ORDER = 2
+}
+
+export enum ORDER_SIDE  {
+	SHORT = "short",
+	LONG = "long"
+}
+
+export enum UI_ORDER_EVENT {
+	NEW_ORDER = "NEW_OPEN_ORDER",
+	OPEN_ORDER_CANCELLED = "NEW_OPEN_ORDER",
+	OPEN_ORDER_REMOVED = "NEW_OPEN_ORDER",
+	NEW_OPEN_POSITION = "NEW_OPEN_POSITION"
+}
+
+export enum OPEN_ORDER_STATUS {
+	ACTIVE = 1,
+	COMPLETED = 2,
+	CANCELED = 3
+}
+
+export enum OPEN_POSITION_STATUS {
+	ACTIVE = 1,
+	COMPLETED = 2
+}
